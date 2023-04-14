@@ -2,10 +2,10 @@ import { MainLogo } from './MainLogo/MainLogo';
 import { Navigation } from './Navigation/Navigation';
 import { Slider } from './Slider/Slider';
 
-export const Header = ({ isThemeLight, changeTheme }) => {
+export const Header = ({ theme, changeTheme }) => {
   return (
-    <header>
-      <MainLogo isThemeLight={isThemeLight} changeTheme={changeTheme} />
+    <header id="home">
+      <MainLogo theme={theme} changeTheme={changeTheme} />
       <Slider />
       <Navigation />
     </header>

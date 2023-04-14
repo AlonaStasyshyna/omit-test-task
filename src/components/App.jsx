@@ -1,20 +1,26 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Header } from './Header/Header';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from 'utils/GlobalStyle';
 import { darkTheme, lightTheme } from 'utils/theme';
 
 export const App = () => {
-  const [isThemeLight, setIsThemeLight] = useState(true);
+  const [theme, setTheme] = useState(
+    localStorage.getItem('app-theme') || 'light'
+  );
+
+  useEffect(() => {
+    localStorage.setItem('app-theme', theme);
+  }, [theme]);
 
   const changeTheme = () => {
-    setIsThemeLight(prevState => !prevState);
+    setTheme(prevState => (prevState === 'light' ? 'dark' : 'light'));
   };
 
   return (
-    <ThemeProvider theme={isThemeLight ? lightTheme : darkTheme}>
+    <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyle />
-      <Header isThemeLight={isThemeLight} changeTheme={changeTheme} />
+      <Header theme={theme} changeTheme={changeTheme} />
     </ThemeProvider>
   );
 };

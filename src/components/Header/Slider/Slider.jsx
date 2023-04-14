@@ -1,5 +1,11 @@
+import { SliderButtons } from './SliderButtons/SliderButtons';
+import { SliderList } from './SliderList/SliderList';
+
 export const Slider = () => {
-    return (
-        <ul>Slider</ul>
-    )
-}
+  return (
+    <>
+      <SliderList />
+      <SliderButtons />
+    </>
+  );
+};
