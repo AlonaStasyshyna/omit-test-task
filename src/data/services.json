@@ -1,0 +1,98 @@
+[
+  {
+    "id": "1",
+    "type": "gold",
+    "occupation": "Instructional Design",
+    "description": "We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us."
+  },
+  {
+    "id": "2",
+    "type": "gold",
+    "occupation": "Elearning Development",
+    "description": "The eLearning products we create feature deep learner engagement and ensure high knowledge transfer."
+  },
+  {
+    "id": "3",
+    "type": "gold",
+    "occupation": "Mobile Learning",
+    "description": "Let us help you take your learning process anywhere your business may take you. Any place, any time, any device."
+  },
+  {
+    "id": "4",
+    "type": "gold",
+    "occupation": "Instructor-led Training",
+    "description": "We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations."
+  },
+  {
+    "id": "5",
+    "type": "green",
+    "occupation": "Instructional Design",
+    "description": "We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us."
+  },
+  {
+    "id": "6",
+    "type": "green",
+    "occupation": "Elearning Development",
+    "description": "The eLearning products we create feature deep learner engagement and ensure high knowledge transfer."
+  },
+  {
+    "id": "7",
+    "type": "green",
+    "occupation": "Mobile Learning",
+    "description": "Let us help you take your learning process anywhere your business may take you. Any place, any time, any device."
+  },
+  {
+    "id": "8",
+    "type": "green",
+    "occupation": "Instructor-led Training",
+    "description": "We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations."
+  },
+  {
+    "id": "9",
+    "type": "greenStroke",
+    "occupation": "Instructional Design",
+    "description": "We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us."
+  },
+  {
+    "id": "10",
+    "type": "greenStroke",
+    "occupation": "Elearning Development",
+    "description": "The eLearning products we create feature deep learner engagement and ensure high knowledge transfer."
+  },
+  {
+    "id": "11",
+    "type": "greenStroke",
+    "occupation": "Mobile Learning",
+    "description": "Let us help you take your learning process anywhere your business may take you. Any place, any time, any device."
+  },
+  {
+    "id": "12",
+    "type": "greenStroke",
+    "occupation": "Instructor-led Training",
+    "description": "We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations."
+  },
+  {
+    "id": "13",
+    "type": "grayStroke",
+    "occupation": "Instructional Design",
+    "description": "We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us."
+  },
+  {
+    "id": "14",
+    "type": "grayStroke",
+    "occupation": "Elearning Development",
+    "description": "The eLearning products we create feature deep learner engagement and ensure high knowledge transfer."
+  },
+  {
+    "id": "15",
+    "type": "grayStroke",
+    "occupation": "Mobile Learning",
+    "description": "Let us help you take your learning process anywhere your business may take you. Any place, any time, any device."
+  },
+  {
+    "id": "16",
+    "type": "grayStroke",
+    "occupation": "Instructor-led Training",
+    "description": "We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations."
+  }
+]

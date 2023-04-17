@@ -3,6 +3,7 @@ import { Header } from './Header/Header';
 import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from 'utils/GlobalStyle';
 import { darkTheme, lightTheme } from 'utils/theme';
+import { Main } from './Main/Main';
 
 export const App = () => {
   const [theme, setTheme] = useState(
@@ -21,6 +22,7 @@ export const App = () => {
     <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
       <GlobalStyle />
       <Header theme={theme} changeTheme={changeTheme} />
+      <Main />
     </ThemeProvider>
   );
 };
