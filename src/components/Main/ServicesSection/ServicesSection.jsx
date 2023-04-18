@@ -91,7 +91,7 @@ export const ServicesSection = () => {
         changeOccupation={changeOccupation}
       />
       <ServicesList services={currentServices} />
-      <Pagination totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} changePage={changePage} />
+      <Pagination page={page} totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} changePage={changePage} />
     </section>
   );
 };

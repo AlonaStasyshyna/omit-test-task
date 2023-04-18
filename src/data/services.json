@@ -2,96 +2,112 @@
   {
     "id": "1",
     "type": "gold",
+    "img": "layers",
     "occupation": "Instructional Design",
     "description": "We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us."
   },
   {
     "id": "2",
     "type": "gold",
+    "img": "computer",
     "occupation": "Elearning Development",
     "description": "The eLearning products we create feature deep learner engagement and ensure high knowledge transfer."
   },
   {
     "id": "3",
     "type": "gold",
+    "img": "phone",
     "occupation": "Mobile Learning",
     "description": "Let us help you take your learning process anywhere your business may take you. Any place, any time, any device."
   },
   {
     "id": "4",
     "type": "gold",
+    "img": "man",
     "occupation": "Instructor-led Training",
     "description": "We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations."
   },
   {
     "id": "5",
     "type": "green",
+    "img": "layers",
     "occupation": "Instructional Design",
     "description": "We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us."
   },
   {
     "id": "6",
     "type": "green",
+    "img": "computer",
     "occupation": "Elearning Development",
     "description": "The eLearning products we create feature deep learner engagement and ensure high knowledge transfer."
   },
   {
     "id": "7",
     "type": "green",
+    "img": "phone",
     "occupation": "Mobile Learning",
     "description": "Let us help you take your learning process anywhere your business may take you. Any place, any time, any device."
   },
   {
     "id": "8",
     "type": "green",
+    "img": "man",
     "occupation": "Instructor-led Training",
     "description": "We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations."
   },
   {
     "id": "9",
     "type": "greenStroke",
+    "img": "layers",
     "occupation": "Instructional Design",
     "description": "We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us."
   },
   {
     "id": "10",
     "type": "greenStroke",
+    "img": "computer",
     "occupation": "Elearning Development",
     "description": "The eLearning products we create feature deep learner engagement and ensure high knowledge transfer."
   },
   {
     "id": "11",
     "type": "greenStroke",
+    "img": "phone",
     "occupation": "Mobile Learning",
     "description": "Let us help you take your learning process anywhere your business may take you. Any place, any time, any device."
   },
   {
     "id": "12",
     "type": "greenStroke",
+    "img": "man",
     "occupation": "Instructor-led Training",
     "description": "We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations."
   },
   {
     "id": "13",
     "type": "grayStroke",
+    "img": "layers",
     "occupation": "Instructional Design",
     "description": "We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us."
   },
   {
     "id": "14",
     "type": "grayStroke",
+    "img": "computer",
     "occupation": "Elearning Development",
     "description": "The eLearning products we create feature deep learner engagement and ensure high knowledge transfer."
   },
   {
     "id": "15",
     "type": "grayStroke",
+    "img": "phone",
     "occupation": "Mobile Learning",
     "description": "Let us help you take your learning process anywhere your business may take you. Any place, any time, any device."
   },
   {
     "id": "16",
     "type": "grayStroke",
+    "img": "man",
     "occupation": "Instructor-led Training",
     "description": "We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations."
   }
