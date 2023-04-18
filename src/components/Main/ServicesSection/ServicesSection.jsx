@@ -76,13 +76,13 @@ export const ServicesSection = () => {
 
     setPage(prevState => prevState + 1);
   };
-    
-    const changePage = (number) => {
-        setPage(number)
-    }
+
+  const changePage = number => {
+    setPage(number);
+  };
 
   return (
-    <section>
+    <section id="services">
       <h2>Services We Provide</h2>
 
       <ServicesFilter
@@ -91,7 +91,13 @@ export const ServicesSection = () => {
         changeOccupation={changeOccupation}
       />
       <ServicesList services={currentServices} />
-      <Pagination page={page} totalPages={totalPages} prevPage={prevPage} nextPage={nextPage} changePage={changePage} />
+      <Pagination
+        page={page}
+        totalPages={totalPages}
+        prevPage={prevPage}
+        nextPage={nextPage}
+        changePage={changePage}
+      />
     </section>
   );
 };
