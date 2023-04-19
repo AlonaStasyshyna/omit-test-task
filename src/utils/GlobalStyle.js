@@ -16,6 +16,7 @@ body {
   margin: 0;
   font-family: 'Museo Sans Cyrl', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial,
     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  color: ${props => props.theme.colors.primaryText};
   background-color: ${props => props.theme.colors.background};
 }
 ul{
