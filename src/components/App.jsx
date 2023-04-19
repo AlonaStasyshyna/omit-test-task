@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyle } from 'utils/GlobalStyle';
 import { darkTheme, lightTheme } from 'utils/theme';
 import { Main } from './Main/Main';
+import { Footer } from './Footer/Footer';
 
 export const App = () => {
   const [theme, setTheme] = useState(
@@ -23,6 +24,7 @@ export const App = () => {
       <GlobalStyle />
       <Header theme={theme} changeTheme={changeTheme} />
       <Main />
+      <Footer />
     </ThemeProvider>
   );
 };
