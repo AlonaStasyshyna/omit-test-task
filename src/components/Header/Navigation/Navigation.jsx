@@ -1,11 +1,8 @@
-import logo from '../../../images/logo.png';
 
 export const Navigation = () => {
   return (
     <nav>
-      <a href="/">
-        <img src={logo} alt="Site logo" width="107px" height="28px" />
-      </a>
+      
 
       <ul>
         <li>

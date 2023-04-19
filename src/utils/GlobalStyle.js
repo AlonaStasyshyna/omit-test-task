@@ -49,4 +49,9 @@ button{
 }
 `;
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+`;

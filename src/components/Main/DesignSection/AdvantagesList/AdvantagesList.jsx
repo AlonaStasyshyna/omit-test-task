@@ -3,7 +3,7 @@ import firstTeam from '../../../../images/firstTeam.png';
 export const AdvantagesList = () => {
   return (
     <div>
-      <img src={firstTeam} alt="Team members" />
+      <img src={firstTeam} alt="Team members" width="100px" />
 
       <h3>We know learning inside and out</h3>
 
