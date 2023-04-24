@@ -13,6 +13,7 @@ export const lightTheme = {
     mainLogoBackground: '#FFFFFF',
     white: '#FFFFFF',
     primaryText: '#424242',
+    buttonBackground: '#EBEBEB',
     secondTitle: '#999B9A',
     filterInputBackground: 'rgba(52, 52, 52, 0.1)',
     filterText: '#343434',
@@ -23,6 +24,11 @@ export const lightTheme = {
     accentSection: '#424242',
     darkGreen: '#3D948C',
     footerText: '#929292',
+  },
+
+  positions: {
+    themeButtonText: 'left',
+    themeButtonIcon: 'right: 0',
   },
 };
 
@@ -41,6 +47,7 @@ export const darkTheme = {
     mainLogoBackground: '#414141',
     white: '#FFFFFF',
     primaryText: '#FFFFFF',
+    buttonBackground: '#343434',
     secondTitle: '#999B9A',
     filterInputBackground: 'rgba(255, 255, 255, 0.1)',
     filterText: '#FFFFFF',
@@ -51,5 +58,10 @@ export const darkTheme = {
     accentSection: '#424242',
     darkGreen: '#3D948C',
     footerText: '#929292',
+  },
+
+  positions: {
+    themeButtonText: 'right',
+    themeButtonIcon: 'left: 0',
   },
 };

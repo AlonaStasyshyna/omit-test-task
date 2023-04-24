@@ -1,32 +1,37 @@
-export const SliderButtons = ({ changePage }) => {
+import { Button, List } from './SliderButtons.styled';
+
+export const SliderButtons = ({ page, changePage }) => {
   return (
-    <ul>
+    <List>
       <li>
-        <button
+        <Button
           type="button"
           value="1"
           aria-label="Slider button"
+          page={page}
           onClick={changePage}
-        ></button>
+        ></Button>
       </li>
 
       <li>
-        <button
+        <Button
           type="button"
           value="2"
           aria-label="Slider button"
+          page={page}
           onClick={changePage}
-        ></button>
+        ></Button>
       </li>
 
       <li>
-        <button
+        <Button
           type="button"
           value="3"
           aria-label="Slider button"
+          page={page}
           onClick={changePage}
-        ></button>
+        ></Button>
       </li>
-    </ul>
+    </List>
   );
 };

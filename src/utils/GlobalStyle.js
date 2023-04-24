@@ -50,8 +50,16 @@ button{
 `;
 
 export const Container = styled.div`
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media ${p => p.theme.media.tablet} {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  @media ${p => p.theme.media.desktop} {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
 `;

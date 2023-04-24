@@ -1,32 +1,45 @@
+import { Link, List, Nav } from './Navigation.styled';
 
-export const Navigation = () => {
+export const Navigation = ({ menuVisibility }) => {
   return (
-    <nav>
-      
-
-      <ul>
+    <Nav>
+      <List>
         <li>
-          <a href="#home">Home</a>
+          <Link href="#home" onClick={menuVisibility}>
+            Home
+          </Link>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <Link href="#services" onClick={menuVisibility}>
+            Services
+          </Link>
         </li>
         <li>
-          <a href="#design">Instructional Design</a>
+          <Link href="#design" onClick={menuVisibility}>
+            Instructional Design
+          </Link>
         </li>
         <li>
-          <a href="#development">eLearning Development</a>
+          <Link href="#development" onClick={menuVisibility}>
+            eLearning Development
+          </Link>
         </li>
         <li>
-          <a href="#priceQuote">eLearning Price Quote</a>
+          <Link href="#priceQuote" onClick={menuVisibility}>
+            eLearning Price Quote
+          </Link>
         </li>
         <li>
-          <a href="#packages">eLearning Packages</a>
+          <Link href="#packages" onClick={menuVisibility}>
+            eLearning Packages
+          </Link>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <Link href="#contact" onClick={menuVisibility}>
+            Contact
+          </Link>
         </li>
-      </ul>
-    </nav>
+      </List>
+    </Nav>
   );
 };

@@ -6,7 +6,7 @@ import { Navigation } from './Navigation/Navigation';
 import { Slider } from './Slider/Slider';
 import { Logo } from './Logo/Logo';
 import { NavButton } from './NavButton/NavButton';
-import { CustomizedHeader, MenuWrapper, Wrapper } from './Header.styled';
+import { CustomizedHeader, MenuWrapper, SliderWrapper } from './Header.styled';
 
 export const Header = ({ theme, changeTheme }) => {
   const [isBurgerMenuOpen, setIsBurgerMenuOpen] = useState(false);
@@ -20,10 +20,10 @@ export const Header = ({ theme, changeTheme }) => {
     <CustomizedHeader id="home">
       <Container>
         {isTablet && (
-          <Wrapper>
+          <SliderWrapper>
             <MainLogo theme={theme} changeTheme={changeTheme} />
             <Slider />
-          </Wrapper>
+          </SliderWrapper>
         )}
 
         <MenuWrapper>
@@ -40,7 +40,7 @@ export const Header = ({ theme, changeTheme }) => {
                 isBurgerMenuOpen={isBurgerMenuOpen}
                 menuVisibility={menuVisibility}
               />
-              <Navigation />
+              <Navigation menuVisibility={menuVisibility} />
             </>
           )}
           {isTablet && <Navigation />}

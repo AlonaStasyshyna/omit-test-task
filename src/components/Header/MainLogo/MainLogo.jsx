@@ -1,12 +1,13 @@
 import { ThemeButton } from '../ThemeButton/ThemeButton';
 import logo from '../../../images/logo.png';
+import { LogoImg, Text, Wrapper } from './MainLogo.styled';
 
 export const MainLogo = ({ theme, changeTheme }) => {
   return (
-    <div>
-      <img src={logo} alt="Site logo" width="177px" height="48px" />
-      <p>Taking Learning to the Next Level</p>
+    <Wrapper>
+      <LogoImg src={logo} alt="Site logo" />
+      <Text>Taking Learning to the Next Level</Text>
       <ThemeButton theme={theme} changeTheme={changeTheme} />
-    </div>
+    </Wrapper>
   );
 };

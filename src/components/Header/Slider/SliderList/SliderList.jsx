@@ -4,63 +4,64 @@ import developmentImg from '../../../../images/development.jpg';
 import priceQuoteImg from '../../../../images/priceQuote.jpg';
 import packagesImg from '../../../../images/packages.jpg';
 import envelopeIcon from '../../../../images/envelope.svg';
+import { Image, Item, List, Text } from './SliderList.styled';
 
 export const SliderList = ({ page }) => {
   return (
-    <ul>
+    <List>
       {page === '1' && (
         <>
-          <li>
+          <Item>
             <a href="#services">
-              <img src={servicesImg} alt="Keyboard" />
-              <p>Services</p>
+              <Image src={servicesImg} alt="Keyboard" />
+              <Text>Services</Text>
             </a>
-          </li>
+          </Item>
 
-          <li>
+          <Item>
             <a href="#design">
-              <img src={designImg} alt="Laptop" />
-              <p>Instructional Design</p>
+              <Image src={designImg} alt="Laptop" />
+              <Text>Instructional Design</Text>
             </a>
-          </li>
+          </Item>
         </>
       )}
 
       {page === '2' && (
         <>
-          <li>
+          <Item>
             <a href="#development">
-              <img src={developmentImg} alt="Workplace" />
-              <p>eLearning Development</p>
+              <Image src={developmentImg} alt="Workplace" />
+              <Text>eLearning Development</Text>
             </a>
-          </li>
+          </Item>
 
-          <li>
+          <Item>
             <a href="#priceQuote">
-              <img src={priceQuoteImg} alt="Worker" />
-              <p>eLearning Price Quote</p>
+              <Image src={priceQuoteImg} alt="Worker" />
+              <Text>eLearning Price Quote</Text>
             </a>
-          </li>
+          </Item>
         </>
       )}
 
       {page === '3' && (
         <>
-          <li>
+          <Item>
             <a href="#packages">
-              <img src={packagesImg} alt="Desktop" />
-              <p>eLearning Packages</p>
+              <Image src={packagesImg} alt="Desktop" />
+              <Text>eLearning Packages</Text>
             </a>
-          </li>
+          </Item>
 
-          <li>
+          <Item>
             <a href="#contact">
-              <img src={envelopeIcon} alt="Envelope" />
-              <p>Contact us</p>
+              <Image src={envelopeIcon} alt="Envelope" />
+              <Text>Contact us</Text>
             </a>
-          </li>
+          </Item>
         </>
       )}
-    </ul>
+    </List>
   );
 };

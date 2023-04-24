@@ -12,7 +12,7 @@ export const Slider = () => {
   return (
     <>
       <SliderList page={page} />
-      <SliderButtons changePage={changePage} />
+      <SliderButtons page={page} changePage={changePage} />
     </>
   );
 };
